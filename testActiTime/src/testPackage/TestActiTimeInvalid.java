@@ -6,7 +6,7 @@ import generic.BaseTest;
 import generic.Flib;
 import pagePackage.LoginPage;
 
-public class TestActiTimeInvalid  extends BaseTest{
+public class TestActiTimeInvalid  extends BaseTest {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -25,7 +25,7 @@ public class TestActiTimeInvalid  extends BaseTest{
 			
 			lp.invalidLogin(invalidUsername, invalidPassword);
 		}
-		bt.closeBrowser();
+		 bt.closeBrowser();
 
 
 	}
